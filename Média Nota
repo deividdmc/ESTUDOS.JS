@@ -1,0 +1,22 @@
+// as notas de um aluno, calcular a média aritimetica e dizer
+// se o aluno foi aprovado ou nao com uma mensagem de apoio.
+
+let n1 = 10;
+let n2 = 10;
+let media = (n1+n2) / 2;
+console.log(`sua nota final foi: ${media}`);
+ if (media >= 7){
+    if(media == 10){
+        console.log("parabens!!")
+    }else if (media > 8 ){
+        console.log("foi bom");
+    }else{
+        console.log("vc passou");
+
+    }
+
+
+ } else{
+    console.log("Nao passou, refaça");
+
+ }
