@@ -1,0 +1,14 @@
+//condiçao logica -> true our false
+
+
+let idade = 25;
+let sexo = "m";
+    if(idade >= 18 && sexo == "m"){ 
+        console.log ("tem que se alisar");
+    }else if (sexo =="f" && idade >=18){
+        
+    }   
+    
+    }else{
+        console.log ("não pode se alistar");
+    } 
