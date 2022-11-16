@@ -1,0 +1,11 @@
+//calcular a quantidade de dias vivido por uma pessoa 
+//atraves da sua idade (definida por anos , mes e dias)
+
+let anos = 33;
+let meses = 10;
+let dias = 22;
+
+let total = (anos *365) + (meses * 30) + dias;
+
+console.log("O total de dias vividos é: " + total);
+// pode usar (´o total de dias vividos é: ${total}`);
